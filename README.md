@@ -35,6 +35,7 @@ http://nodejs.cn/
 <p>6.下载package.json文件，安装其中已写好的依赖包</p>
 	
 	npm install --save-dev
+	
 	执行后项目会自动下载package中申明的依赖包，完成后略过以下7	~11步。
 	若你选择自定义依赖包，则跳过这一步。从7开始自行生成package.json
 
