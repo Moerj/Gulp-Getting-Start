@@ -1,46 +1,56 @@
 # Gulp前端自动化配置
 
+<h3>有了这个，不补再每次写代码时需要重复地保存、刷新、看效果！！！</h3>
+
+<b>本脚本工具可以为你做到：</b>
+1.代码效果时时展现在页面上
+2.开启多浏览器联动，同时刷新，同时交互
+3.保存修改自动编译sass、jade等模板
+
 <br>
 
 <h3>安装</h3>
 
-安装 nodejs
+<p>安装 nodejs</p>
 
 	http://nodejs.cn/
 
-打开控制台窗口（mac系统下npm安装全局包需要在前面加上sudo）
+<p>打开控制台窗口</p>
+（mac系统下npm安装全局包需要在前面加上sudo）
 
-选装 cnpm
+<br>
+
+<p>选装 cnpm</p>
 国内的镜像地址，速度更稳定。安装后以下的npm命令替换为cnpm
 
 	npm install cnpm -g --registry=https://registry.npm.taobao.org
 
-安装 gulp
+<p>安装 gulp</p>
 
 	npm install gulp -g
 
-安装 浏览器自动刷新
+<p>安装 浏览器自动刷新</p>
 
 	npm install browser-sync -g
 	
-生成package.json
+<p>生成package.json</p>
 
 	npm init （name、version、dscription必填，其他选填）
 
 
-项目安装 gulp
+<p>项目安装 gulp</p>
 
 	npm install gulp --save-dev
 
-项目安装 sass编译
+<p>项目安装 sass编译</p>
 
 	npm install gulp-sass --save-dev
 
-项目安装 jade编译
+<p>项目安装 jade编译</p>
 	
 	npm install gulp-jade --save-dev
 
-项目安装 浏览器自动刷新
+<p>项目安装 浏览器自动刷新</p>
 
 	npm install browser-sync --save-dev
 
