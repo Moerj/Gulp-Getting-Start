@@ -31,25 +31,31 @@ http://nodejs.cn/
 <p>5.安装 浏览器自动刷新</p>
 
 	npm install browser-sync -g
+
+<p>6.下载package.json文件，安装其中已写好的依赖包</p>
 	
-<p>6.生成package.json</p>
+	npm install --save-dev
+	执行后项目会自动下载package中申明的依赖包，完成后略过以下7	~11步。
+	若你选择自定义依赖包，则跳过这一步。从7开始自行生成package.json
+
+<p>7.生成package.json</p>
 
 	npm init （name、version、dscription必填，其他选填）
 
 
-<p>7.项目安装 gulp</p>
+<p>8.项目安装 gulp</p>
 
 	npm install gulp --save-dev
 
-<p>8.项目安装 sass编译</p>
+<p>9.项目安装 sass编译</p>
 
 	npm install gulp-sass --save-dev
 
-<p>9.项目安装 jade编译</p>
+<p>10.项目安装 jade编译</p>
 	
 	npm install gulp-jade --save-dev
 
-<p>10.项目安装 浏览器自动刷新</p>
+<p>11.项目安装 浏览器自动刷新</p>
 
 	npm install browser-sync --save-dev
 
