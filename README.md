@@ -56,9 +56,20 @@ http://nodejs.cn/
 
 <br>
 <h3>配置</h3>
-
 拷贝gulpfile文件到项目根目录下
 
+<h4>监听静态页面</h4>
+	browserSync.init({
+        server: {
+            baseDir: "./",
+            index: "index.html"
+        }
+    });
+
+<h4>监听动态页面</h4>
+	browserSync.init({
+        proxy: "localhost:8080/xph/index.action"
+    });
 
 <br>
 <h3>开始自动化</h3>
